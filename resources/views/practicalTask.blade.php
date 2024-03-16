@@ -58,7 +58,7 @@
             }
             if (countNumber == 2) {
                 tableData += '<td id="rowSub' + i + '"></td></tr>';
-                countNumber = 0
+                countNumber = -1
             }
             countNumber++;
         }
@@ -73,7 +73,7 @@
             }
             if (newCunt == 2) {
                 tableData += '<td id="colSub' + j + '"></td>';
-                newCunt = 0
+                newCunt = -1
             }
             newCunt++
         }
